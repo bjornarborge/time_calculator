@@ -83,4 +83,5 @@ def add_time(start, duration, week_day = None):
     added_time = add_to_base(base, duration)
     new_time = print_time(added_time, week_day)  
 
+    print(new_time)
     return new_time
